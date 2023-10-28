@@ -1,0 +1,33 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivani510669/React.git"
+  },
+  "keywords": [],
+  "author": "\"shivani\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivani510669/React/issues"
+  },
+  "homepage": "https://github.com/Shivani510669/React#readme",
+  "devDependencies": {
+    "parcel": "^2.10.1",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@parcel/core": "^2.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browerslist":[
+    "last 2 versions"
+    
+  ]
+}

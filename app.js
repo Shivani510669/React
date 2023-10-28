@@ -1,21 +1,14 @@
-/*
-to create str like
-<div id="parent">
-    < div id="child">
-<h1>Im a h 1 tag</h1>
-<h2>im a h2 tag</h2>
+import React from "react";
+import  ReactDOM  from "react-dom/client";
 
-        </div>
- </div>
- */
 
  const parent= React.createElement( "div",
  {id:"parent"},[
  React.createElement
  ("div"
  ,{id:"child"},
- [React.createElement("h1",{},"im a h1 tag"),
- React.createElement("h2",{},"im a h2 tag"),
+ [React.createElement("h1",{}," This is Namaste React im a h1 tag"),
+ React.createElement("h2",{},"im Shivani"),
 ]), 
 React.createElement
 ("div"
